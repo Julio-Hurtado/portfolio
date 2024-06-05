@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  font-size: 16px;
 }
 
 h2 {
@@ -24,8 +25,8 @@ h2 {
   font-weight: bold;
 }
 
-.item{
-  padding: 0.8rem; 
+.item {
+  padding: 0.8rem;
 }
 
 #skills {
@@ -85,6 +86,17 @@ h2 {
   }
 }
 
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: #183552f7;
+}
+.p-05 {
+  padding: 0.5rem;
+}
+
 #footer {
   background-color: rgba(22, 22, 22, 0.918);
   padding: 0.8rem;
@@ -103,8 +115,15 @@ h2 {
   transition: color ease-in-out 0.2s;
 }
 
-.bg-custom .active a {  
+.bg-custom .active a {
   background-color: #1abc9c;
+}
+ 
+.bg-custom .navbar-toggle{
+  border-color: #1abc9c;
+  & .icon-bar {
+    background-color: #888;
+}
 }
 
 @media screen and (max-width: 750px) {
