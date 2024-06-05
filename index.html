@@ -324,6 +324,10 @@
           $(".nav li a").parent().removeClass("active");
           $(this).parent().toggleClass("active");
         });
+
+        $(".navbar-brand").click(function () {
+          $(".nav li a").parent().removeClass("active");
+        });
       });
     </script>
   </body>

@@ -30,7 +30,8 @@ h2 {
 }
 
 #skills {
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #118a9732;
 }
 
 #about {
